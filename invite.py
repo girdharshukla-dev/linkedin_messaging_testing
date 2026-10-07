@@ -27,7 +27,6 @@ CONNECTIONS_URL = "https://www.linkedin.com/mynetwork/invite-connect/connections
 PROFILE_DIR = "./li_profile"
 DB_PATH = "invited.db"
 
-# ---------- things you edit ----------
 COMPANY_PAGE_URL = "https://www.linkedin.com/company/YOUR-PAGE-NAME/"
 MESSAGE_TEMPLATE = (
     "Hi {first_name}, thanks for connecting! "
@@ -37,7 +36,6 @@ MAX_PER_RUN = 3          # messages sent per check
 CHECK_MINUTES = (20, 40)
 
 
-# ---------- storage ----------
 def db():
     con = sqlite3.connect(DB_PATH)
     con.execute(
@@ -64,7 +62,6 @@ def forget_failed(con):
     con.commit()
 
 
-# ---------- helpers ----------
 def pause(a=3, b=8):
     time.sleep(random.uniform(a, b))
 
