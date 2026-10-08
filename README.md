@@ -33,8 +33,6 @@ Based on LinkedIn's Help Center and other sources I read:
 - Page admins can do this for their own page. LinkedIn has also opened it to members
   for pages with **5,000 or fewer followers**.
 - Pages get **monthly invitation credits**, shared across all admins of that page.
-  Exact numbers vary by source, so check LinkedIn's "Invitation limits for your LinkedIn
-  Page" help article for the current figures.
 - Invites go to **your own connections only**. A page cannot invite strangers.
 - A company page has no login of its own. It is managed through personal profiles that
   hold an admin role. The profile that creates the page becomes its super admin.
